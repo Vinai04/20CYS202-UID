@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel='icon' href='/Users/saranesheaswaramoorthy/Desktop/Anoka/unnamed.jpg'>
+    <style>
+
+span{
+  color:#A4123F;
+}
+.back{
+  background-color:white;
+}
+
+.navbar{ overflow: hidden;
+         float: none;
+         margin: 30px;
+          }
+          .navbar ul{
+            list-style: none;
+          }
+
+
+
+          .navbar li a{
+            float:right;
+            color:#A4123F;
+            text-align: center;
+            font-style: none;
+            font-family: Rubiks;
+            font-size: 30px;
+            text-decoration: none;
+            padding: 14px 16px;
+          }
+          .navbar a:hover{
+            color: white;
+            background-color:#A4123F;
+          }
+          .box{
+  width: 1000px;
+  height: 600px;
+  background: rgba(10, 9, 9,.7);
+  padding: 30px;
+  text-align: center;
+  margin:auto;
+  color: whitesmoke;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-family: font2;
+}
+        .credits
+            {
+              width: 200px;
+  height: 40px;
+  background: rgba(10, 9, 9,.7);
+  padding: 20px;
+  text-align: center;
+  margin:auto;
+  color: rgb(222, 113, 18);
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: font3;}
+
+  .logo
+  {
+  color : white;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: -30px;
+  padding-left: 80px;
+  width:250px
+  }
+
+  .cen{
+    text-align: center;
+
+  }
+  .fiv{
+    font-family: font1;
+    font-size: 30px;
+    text-align: center;}
+
+
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=email], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #A4123F;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #6D1430;
+      color: white;
+    }
+
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    label {
+  cursor: default;
+  }
+
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #A4123F;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #A4123F;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+    </style>
+  </head>
+  <header>
+    <nav class="navbar">
+      <ul>
+
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="C:/Users/vinay/Desktop/Anokha.html">Home</a></li>
+            <li style="float:left;"><img src="E:\Buildouts\Graphic Designing\WORK\Amrita\pictures\Untitled design2.png" class="logo"></li>
+      </ul>
+    </nav>
+</header>
+<body>
+  <script>
+  function myFunction() {
+  alert("Your submission has been recorded");
+  }
+  </script>
+
+  <div style="text-align: center; color: white; margin-top: 30px">
+  <p style="color: white; font-size:40px;"><span>Register here! </span></p><br>
+  </div>
+  <div style=margin-top: 50">
+  <form>
+    <label for="fname">Name</label>
+    <input type="text" placeholder="Enter your full name"><br><br>
+    <label for="fname">University Name</label>
+    <input type="text" placeholder="Enter your University name"><br><br>
+    <label for="fname">Email Address</label>
+    <input type="email" placeholder="Enter your University email address"><br><br>
+    <label for="fname">Mobile Number</label>
+    <input type="text" placeholder="Mobile Number"><br><br>
+    <label style="margin-left:2px;" for="birthday">DOB:</label>
+    <input type="date" id="birthday" name="birthday"><br /><br />
+    <label for="country">Academic year</label>
+    <select id="country" name="country">
+      <option value="australia">2021-2025</option>
+      <option value="canada">2020-2024</option>
+      <option value="usa">2019-2023</option>
+      <option value="usa">2018-2022</option>
+    </select>
+    <br /><br />
+    <label>
+    Gender:
+    </label><br><br />
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Male</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">Female</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">Non-Binary</label>
+    <p><label for="w3review">Describe about you:</label></p>
+    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+    <br>
+    <p><label for="w3review">Choose your project domain:</label></p>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1">Artificial Intelligence</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2">Cyber Security</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3">Data Science</label><br><br>
+    <label>
+    Turn on to receive further update mails
+    </label><br />
+    <label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+
+    <input onclick="myFunction()" type="submit" value="Register" style=color:white";><br>
+
+
+  </form>
+  </div>
+  </body>
+  </html>
