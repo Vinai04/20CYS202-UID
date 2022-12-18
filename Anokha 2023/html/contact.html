@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    <link rel='icon' href='C:\Users\vinay\Desktop\anokha\images/amicon.png'>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Carter+One&family=Jost:wght@300&family=Unbounded:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Carter+One&family=Jost:wght@300&family=Unbounded:wght@500&display=swap');
+    
+
+span{
+  color:white;
+}
+
+body{
+  background-image: url("party2.jpg");
+  width:1500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.navbar{ overflow: hidden;
+         float: none;
+         margin: 30px;
+         
+          }
+          .navbar ul{
+            list-style: none;
+            
+          }
+
+
+
+          .navbar li a{
+            float:right;
+            color:white;
+            text-align: center;
+            font-size: 25px; 
+            font-family: 'Jost', sans-serif;
+            margin-top: 0px;
+            text-decoration: none;
+            padding: 14px 16px;
+            font-weight: bold;
+          }
+          .navbar a:hover{
+            color: #A4123F;
+            background-color:white;
+            font-weight: bold;
+          }
+          .box{
+  width: 1000px;
+  height: 600px;
+  background: rgba(10, 9, 9,.7);
+ padding: 30px;
+text-align: center;
+  margin:auto;
+  color: whitesmoke;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-family: font2;
+}
+        .credits
+            {
+              width: 200px;
+  height: 40px;
+  background: rgba(10, 9, 9,.7);
+  padding: 20px;
+  text-align: center;
+  margin:auto;
+  color: rgb(222, 113, 18);
+  margin-top: 50px;
+  border-radius: 20px;
+  font-family: font3;}
+
+  .logo
+  {
+  color : white;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-top: 45;
+  padding-left: 0px;
+  width:250px
+  }
+
+  .cen{
+    text-align: center;
+    align-items: center;
+
+  }
+  .fiv{
+    font-family: font1;
+    font-size: 30px;
+    text-align: center;}
+
+  .cp{
+    color: white;
+    font-size: 16px;color: white;
+    font-family: 'Jost', sans-serif;
+  } 
+
+  .container {
+    margin-left: 50px;
+  }
+
+/* 
+background           rgb(88, 76, 119);
+foreground           rgb(201, 192, 228); 
+*/
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color:#A4123F;
+}
+
+
+#contact{
+    width: 80%;
+    height: 70%;
+    margin: 5% 10%;
+    box-shadow: 3px 3px 15px grey;
+    background: white;
+}
+
+
+.con-box{
+    display: inline-block;
+}
+/* .icon{
+    color: rgb(88, 76, 119);
+    background: rgb(242, 226, 255);
+} */
+.info, .con-form{
+    /* display: inline-block; */
+    /* width: 49%; */
+    /* height: 100%; */
+    
+}
+
+.info{
+    color:white;
+    height: 100%;
+    width: 39%;
+    /* width: 25%; */
+    /* margin: 5%; */
+    /* padding: 2rem 2rem 0 2rem; */
+    background:#A4123F;
+}
+.con-form{
+    width: 60%;
+    /* padding-top: -5%;
+    margin-top: -10%; */
+    /* float: inline-start;
+    float: unset; */
+    /* padding: 2rem 2rem 0 2rem; */
+    /* height: 100%; */
+    /* margin-top: 0;
+    padding-top: 0; */
+    /* background: #000; */
+}
+.con{
+  padding: 5%;  
+}
+.con h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+.info ul li{
+    list-style: none;
+    margin: 8% 0;
+}
+.social-media{
+    margin-top: 30%;
+}
+.social-media ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5%;
+}
+.social-media ul li img{
+    width: 165%;
+    
+}
+/* .social-media ul li a{
+    text-decoration: none;
+    color: white;
+} */
+
+/* .icon{
+    display: inline-block;
+    padding: 1rem 1rem;
+} */
+/* .address, .cell, .email, .more{
+    width: 40%;
+} */
+
+h2, .form input, .form textarea, #sbmt-btn{
+    display: block;
+    /* align-items: center; */
+    margin:5%;
+    width: 90%;
+    padding: 2%;
+}
+input, textarea{
+    background: white;
+    border: 2px;
+}
+::placeholder{
+    color: black;
+}
+
+h2{
+    text-transform: uppercase;
+}
+.con-form h2{
+    color: #A4123F;
+}
+
+input[type=submit]
+            {
+                background-color:#A4123F;
+                border: none;
+                font-family: 'Jost', sans-serif;
+                margin-bottom: 0px;
+                margin-right: 0px;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+                color: white;
+
+            }
+
+            input[type=submit]:hover {
+                    background-color: #CC005F;
+                    color: white;
+                    }
+/* h2, form input, form textarea{
+    
+} */
+/* #sbmt-btn{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background: #000;
+} */
+/* input[type=submit]{
+    padding: 2%;
+
+}
+input[type=text]{
+    padding: 2%;
+}
+input[type=email]{
+    padding: 2%;
+}
+textarea{
+    padding: 2%;
+} */
+
+@media (max-width:1024px){
+    #contact{
+        width: 100%;
+        /* height: 70%; */
+        margin: 0;
+        background: none;
+    }
+    .info, .con-form{
+        /* display: inline-block; */
+        width: 100%;
+        height: 80%;
+        
+    }
+    .social-media{
+        margin-top: 10%;
+    }
+}
+</style>
+
+<header>
+    <nav class="navbar">
+      <ul>
+
+            <li><a href="#" style="background-color:white; color: #A4123F;"><b>Contact</b></a></li>
+            <li><a href="Register.html"><b>Register</b></a></li>
+            <li><a href="about.html" ><b>About</b></a></li>
+            <li><a href="../index.html"><b>Home</b></a></li>
+            <li style="float:left;"><img src="C:\Users\vinay\Desktop\anokha\images\amritalogo2.png" class="logo" ></li>
+      </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div id="contact">
+            <div class="info con-box">
+                <div class="con">
+                    <h2>Contact Us</h2>
+                    <!-- .address>div>i+p -->
+                    <ul>
+                        <li><span><img src="C:\Users\vinay\Desktop\anokha\images\loc.svg" alt=""></span> &nbsp Amrita Vishwa Vidyapeetham
+                            Coimbatore Campus
+                            Amritanagar
+                            Coimbatore - 641 112
+                            Tamilnadu, India</li>
+                        <li><span><img src="C:\Users\vinay\Desktop\anokha\images\mail.svg" alt=""></span> &nbsp univhq@amrita.edu
+                        </li>
+                        <li><span><img src="C:\Users\vinay\Desktop\anokha\images\call.svg" alt=""></span> &nbsp +91 (476) 289 6178
+                        </li>
+                        
+                    </ul>
+
+                    
+
+                    <p style="font-size: 20px;text-align: center;">To know more, contact us via following links.</p>
+                    <!-- <div class="address">
+                        <div class="icon"><img src="icon/location.svg" alt=""></div>
+                        <span>72-1 Jigatola, Dhanmondi Dhaka, BD</span>
+                    </div> -->
+                    <!-- <div class="email">
+                        <div class="icon"><img src="icon/e-mail-envelope.svg" alt=""></div>
+                        <span>mdshayon0@gmail.com</span>
+                    </div> -->
+                    <!-- <div class="cell">
+                        <div class="icon"><img src="icon/mobile-phone-design.svg" alt=""></div>
+                        <span>+880178520-8590</span>
+                    </div> -->
+                    <!-- <div class="more">
+                        <div class="icon"><img src="icon/more.svg" alt=""></div>
+                        <span>To know more connect me </span>
+                    </div> -->
+                    <div class="social-media">
+                        <ul style="margin-left: 20px;">
+                            <li><a href="https://www.facebook.com/AmritaUniversity/" target="_blank"><img src="C:\Users\vinay\Desktop\anokha\images\fb.svg" alt="fb"></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/channel/UCVEeVDos5a4S9sMPK4jPUzA" target="_blank"><img
+                                        src="C:\Users\vinay\Desktop\anokha\images\yt.svg" alt="youtube"></a></li>
+                            <li><a href="https://twitter.com/amritaedu?lang=en" target="_blank"><img src="C:\Users\vinay\Desktop\anokha\images\tw.svg" alt="twitter"></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/school/amrita-vishwa-vidyapeetham-official/" target="_blank"><img src="C:\Users\vinay\Desktop\anokha\images\likd.svg"
+                                        alt="linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <br>
+            <br>
+            <br>
+            <br>
+            <br> -->
+            <div class="con-form con-box">
+                <div class="con">
+                    <h2>Get in touch</h2>
+                    <form class="form">
+                        <input type="text" placeholder="Enter your Name">
+                        <input type="email" placeholder="Email" style="font-family: 'Jost', sans-serif;">
+                        <textarea type="text" placeholder="Enter your message" id="message" style="font-family: 'Jost', sans-serif;"></textarea>
+                        <input type="submit" value="Send" style="font-family: 'Jost', sans-serif;">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <center>
+            <p class="cp"><b>© Copyright KNACKLADS</b> | Designed by Vinayak</p>
+        </center>
+      </div>
+
+</body>
+
+</html>
