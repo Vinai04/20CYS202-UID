@@ -292,7 +292,7 @@ input:checked + .slider:before {
                         <p style="font-family: 'Jost', sans-serif;margin-bottom: 0px;margin-right: 0px;font-weight: bold;">Gender:</p>
                     </div>
                     <div>
-                            <input type="radio" id="html" name="male" value="m" style="width: 30px;">
+                            <input type="radio" id="html" name="male" value="m" style="width: 30px;" required>
                             <label>Male</label><br>
                             <input type="radio" id="css" name="female" value="f" style="width: 30px;">
                             <label>Female</label><br>
@@ -303,13 +303,13 @@ input:checked + .slider:before {
                     <div style="margin-left: -490px; margin-bottom: 0px; margin-right: 0px;">
                         <p style="font-family: 'Jost', sans-serif;margin-bottom: 0px;margin-right: 0px;font-weight: bold;">DOB:</p>
                     </div>
-                        <input type="date" id="birthday"><br /><br /> 
+                        <input type="date" id="birthday" required><br /><br /> 
 
                         
                         
 
                     <div style="margin-left: 0px; margin-bottom: 0px; margin-right: 0px;">
-                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style="width: 20px;">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style="width: 20px;" required>
                         <label style="font-family: 'Jost', sans-serif;margin-bottom: 0px;margin-right: 0px;font-weight: bold;">I agree to the Terms and Conditions.</label>
                     </div>
 
@@ -392,8 +392,7 @@ input:checked + .slider:before {
                         }
                     else
                     {
-                        alert("your response has been submitted");
-                        window.location.reload();
+                        alert("Your response has been submitted");
                         return true;
                     }
                     
