@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gallery</title>
+    <link rel='icon' href='../images/amicon.png'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Carter+One&family=Jost:wght@300&family=Unbounded:wght@500&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Carter+One&family=Jost:wght@300&family=Unbounded:wght@500&display=swap');
+
+      div.gallery {
+        border: 1px solid #ccc;
+        background-color: white;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: black;
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      span {
+        color: white;
+      }
+
+      body {
+        background-image: url("../images/gall.jpg");
+        width: 1500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .navbar {
+        overflow: hidden;
+        float: none;
+        margin: 30px;
+      }
+
+      .navbar ul {
+        list-style: none;
+      }
+
+      .navbar li a {
+        float: right;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Jost', sans-serif;
+        margin-top: 0px;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-weight: bold;
+      }
+
+      .navbar a:hover {
+        color: #A4123F;
+        background-color: white;
+        font-weight: bold;
+      }
+
+      .box {
+        width: 1000px;
+        height: 600px;
+        background: rgba(10, 9, 9, .7);
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+        color: whitesmoke;
+        margin-top: 30px;
+        border-radius: 20px;
+        font-family: font2;
+      }
+
+      .credits {
+        width: 200px;
+        height: 40px;
+        background: rgba(10, 9, 9, .7);
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+        color: rgb(222, 113, 18);
+        margin-top: 50px;
+        border-radius: 20px;
+        font-family: font3;
+      }
+
+      .logo {
+        color: white;
+        font-size: 50px;
+        letter-spacing: 2px;
+        margin-top: 45;
+        padding-left: 0px;
+        width: 250px
+      }
+
+      .cen {
+        text-align: center;
+      }
+
+      .fiv {
+        font-family: font1;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .cp {
+        color: white;
+        font-size: 16px;
+        color: white;
+        font-family: 'Jost', sans-serif;
+      }
+    </style>
+  </head>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="../html/contact.html">
+            <b>Contact</b>
+          </a>
+        </li>
+        <li>
+          <a href="../html/register.html">
+            <b>Register</b>
+          </a>
+        </li>
+        <li>
+            <a href="#" style="background-color:white; color: #A4123F;">
+              <b>Gallery</b>
+            </a>
+          </li>
+        <li>
+          <a href="../html/about.html">
+            <b>About</b>
+          </a>
+        </li>
+        <li>
+          <a href="../index.html">
+            <b>Home</b>
+          </a>
+        </li>
+        <li style="float:left;">
+          <img src="../images/amritalogo2.png" class="logo">
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <p style="font-size: 35px;color: white;font-family: 'Jost', sans-serif;font-weight: bolder; text-align: center; margin-bottom: 0px; ">Gallery</p>
+    <p style="font-size: 30px; color: white; margin-top: 0; text-align: center; ">________</p>
+    <br>
+    <br>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery1.jpg">
+          <img src="../images/gallery1.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Anokha 2023</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery2.jpg">
+          <img src="../images/gallery2.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Singing</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery3.jpg">
+          <img src="../images/gallery3.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Celebrities</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery4.jpg">
+          <img src="../images/gallery4.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Dance</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery7.jpg">
+          <img src="../images/gallery7.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Prizes</div>
+      </div>
+    </div>
+    <div class="responsive" style="margin-top:5px; margin-left: -1130px;">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery5.jpg">
+          <img src="../images/gallery5.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Raghasudha</div>
+      </div>
+    </div>
+    <div class="responsive" style="margin-top:-135px; margin-left: 375px;">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery8.jpg">
+          <img src="../images/gallery8.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Events</div>
+      </div>
+    </div>
+    <div class="responsive" style="margin-top:-420px; margin-left: 1130px;">
+      <div class="gallery">
+        <a target="_blank" href="../images/gallery6.jpg">
+          <img src="../images/gallery6.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">DJ Night</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 850px;">
+        <center>
+          <p class="cp">
+            <b>© Copyright KNACKLADS</b> | Designed by Vinayak
+          </p>
+        </center>
+      </div>
+
+  </body>
+</html>
